@@ -1,0 +1,64 @@
+Welcome to "The Land of Bloks"! "The Land of Bloks" is a game where you can explore, build and battle!
+
+The goal of the game is to get 3000 coins. If you do, you win!
+
+All players start out with 70 health. For every 100 coins you get, your maximum health upgrades +10.
+
+You can collect coins by either digging from a gold mine, killing a person with a weapon, or by automatically
+getting gold with a windmill. If you kill a person, you get the amount of gold that person had, divided in half,
+rounded up.
+
+If you happen to die in any way, you respawn with a standard tool, a wooden wall, and a windmill in your inventory.
+The amount of coins you spawn with is the amount of coins you had, divided in half, rounded up. You start with 0 XP.
+
+Thankfully, you get to keep all of the things you built on the map. 
+
+To collect resources, you should use a tool. All weapons can collect resources except the bow.
+Some tools are better than others, for example the axe is better than the standard tool.
+You need to be one block away from the tree, mine, et cetera to be able to get resources from it.
+
+You can use these resources to build things, for example walls. It's a good idea to stock up on resources
+so that you can build a base, where you are pretty safe from enemies. Enemies can use weapons (like swords)
+to hurt you!
+
+If you get hurt and want to heal yourself, you can eat food. You get 5 health back for every piece of food you eat.
+
+Your inventory holds all of the things that you are allowed to build. It also contains your tools. For every 100
+XP you get, you get to add another item to your inventory.
+
+For every thing you hit, including trees, mines, walls, et cetera, you get 1 XP. If you kill a person, you get 50 XP.
+
+Here's a list of items. For more detail on any item, run the "help.py" file:
+
+Wood wall          Provides protection for your base.                      Health: 35          Stone x 10, Wood x 10
+Stone wall         Provides better protection!                             Health: 60          Stone x 20, Wood x 20
+Spiky wall         Opponents get hurt trying to destroy THIS pup!          Health: 50          Stone x 30, Wood x 20    Damage per hit: 5
+Very spiky wall    Good luck mining this fella! >:D                        Health: 50          Stone x 40, Wood x 20    Damage per hit: 10
+Booster pad        Moves you in the direction specified on pad.            Health: 45          Stone x 40, Wood x 15
+Thief-free wall    Blocks everyone except for the person who placed it.    Health: 55          Stone x 30, Wood x 30
+Bridge             Makes a path through the water.                         Health: Infinite    Wood x 10
+Water              You can't breathe in it. (Tip: build a moat!)           Health: Infinite    Stone x 5
+Windmill           Gives you 1 coins every second!                         Health: 35          Stone x 10, Wood x 30
+Faster windmill    Gives you 3 coins every second!                         Health: 40          Stone x 15, Wood x 45
+Fastest windmill   Gives you 6 coins every second!                         Health: 45          Stone x 20, Wood x 85
+
+Standard tool      Standard ol' tool.                                       Resources: x1    Damage: 5    Damage range: 1
+Axe                Better at gathering stuff!                               Resources: x2    Damage: 8    Damage range: 2
+Sword              The sharpest, most dangerous weapon made.                Resources: x1    Damage: 15   Damage range: 2
+Bow                Great for long-distance shots, but misses more often.    Resources: x0    Damage: 10   Damage range: 6
+Pickaxe            Collects resources and destoys buildings effectively!    Resources: x3    Damage: 8    Damage range: 3
+
+
+CONTROLS:
+
+P1:
+
+Arrow keys   =>   Move
+Spacebar     =>   Use item selected in inventory
+N & M        =>   Change selected item in inventory
+
+P2:
+
+WASD         =>   Move
+Q            =>   Use item selected in inventory
+1 and 2      =>   Change selected item in inventory
